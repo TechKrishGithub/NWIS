@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "NWIS",
+    "slug": "nwisnewbuild",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/AppIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppIcon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.krishnakakarla.NWIS"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7043912f-5709-4fa5-b9f5-fce5f63cc26f"
+      }
+    },
+    "owner": "krishnareact"
+  }
+}
